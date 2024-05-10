@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="maskHead">Our Pricing</p>
+    <nav>
+      <span>Annually</span>
+      <span class="circleBox">
+        <input type="checkbox" id="circleBtn" class="switchBtn">
+        <label for="circleBtn" class="circle"></label>
+      </span>
+      <span>Monthly</span>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="box box-White">
+      <p class="headTier">Basic</p>
+      <!-- &dollar;19.99 -->
+      <span class="dollarPrice"><p>&dollar;</p><p id="priceBs" class="price">199.99</p></span>
+      <div class="text">
+        <span>500 GB Storage</span>
+        <span>2 Users Allowed</span>
+        <span>Send up to 3 GB</span>
+      </div>
+      <button class="btn"><p>LEARN MORE</p></button>
+    </div>
+
+    <div class="box box-Purple">
+      <p class="headTier textWhite">Professional</p>
+      <!-- &dollar;24.99 -->
+      <span class="dollarPrice"><p>&dollar;</p><p id="pricePs" class="price">249.99</p></span>
+      <div class="text">
+        <span>1 TB Storage</span>
+        <span>5 Users Allowed</span>
+        <span>Send up to 10 GB</span>
+      </div>
+      <button class="btn"><p>LEARN MORE</p></button>
+    </div>
+
+    <div class="box box-White">
+      <p class="headTier">Master</p>
+      <!-- &dollar;39.99 -->
+      <span class="dollarPrice"><p>&dollar;</p><p id="priceMs" class="price">399.99</p></span>
+      <div class="text">
+        <span>2 TB Storage</span>
+        <span>10 Users Allowed</span>
+        <span>Send up to 20 GB</span>
+      </div>
+      <button class="btn"><p>LEARN MORE</p></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_self">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/HusdinJ">HusdinJ</a>.
+  </div>
+</body>
+</html>
